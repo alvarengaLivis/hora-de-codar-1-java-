@@ -11,13 +11,60 @@
 <body>
 
        <script>
-        var nome_do_carro = "fuaca"
+        var nome_do_carro = "fusca"
         alert (nome_do_carro)
 
         //ex2
         let nome= prompt("qual é o seu nome?");
         alert ("Olá,"+ nome);
 
+        //ex3
+        let nome_usuario= prompt("qual é o seu nome?")
+        let idade= prompt("qual é a sua idade?")
+        alert("Olá, "+ nome_usuario + " sua idade é "+ idade )
+
+        //ex4
+        //area do retangulo
+        let base = parseFloat(prompt ("base do retÂngulo:"))
+        let altura = parseFloat(prompt ("altura:"))
+        area = base * altura
+        alert ("a area do retangulo é = "+area)
+        
+        //area do quadrado
+        let lado= parseFloat(prompt("1°lado do quadrado:"))
+        let lado1= parseFloat(prompt("2°lado do quadrado:"))
+        area= lado*lado1
+        alert ("a area do quadrado é= " + area)
+
+        //area do losango
+        let diago_maior= parseFloat(prompt("diagonal maior:"))
+        let diago_menor= parseFloat(prompt("diagonal menor:"))
+        area= diago_maior*diago_menor/2
+        alert("a area do losango é = "+ area)
+
+        //area do trapezio
+        let base_maior= parseFloat(prompt("base maior do trapezio:"))
+        let base_menor= parseFloat(prompt("base menor do trapezio:"))
+        let altural= parseFloat(prompt("altura do trapesio:"))
+        area= base_maior + base_menor * altural/2
+        alert("a area do trapezio é= " + area)
+        
+        //area do paralelogramo
+        let basep= parseFloat(prompt("base do paralelogramo:"))
+        let alturap= parseFloat(prompt("altura do paralelogramo:"))
+        area= basp * alturap
+        alert("a area do paralelogramo é= "+area)
+
+        //area do triangulo 
+        let baset= parseFloat(prompt("base do triangulo:"))
+        let alturat= parseFloat(prompt("altura do triangulo:"))
+        area= baset * alturat / 2
+        alert ("a area do triangulo é= " + area)
+
+        //area do circulo
+        let raio= parseFloat(prompt("raio do circulo:"))
+        area= raio*raio * 3,14
+        alert ("a area do circulo é= " + area)
        </script>
 </body>
 </html>
